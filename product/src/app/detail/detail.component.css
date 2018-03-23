@@ -1,0 +1,22 @@
+#detail{
+    margin-left: 20px;
+    text-align: left;
+}
+/* span{
+    margin-right: 30px;
+} */
+button{
+    margin-left: 10px;
+    margin-right: 15px;
+    border-radius: 3px;
+}
+td{
+    padding: 10px 60px 10px 10px;
+}
+#back{
+    background-color: lightgray;
+}
+#delete{
+    background-color: red;
+    color:white;
+}

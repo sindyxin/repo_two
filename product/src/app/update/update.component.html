@@ -1,0 +1,9 @@
+<h2>Edit Product</h2>
+<p style="color:red;" *ngFor="let error of errors">{{error}}</p>
+<form (submit)="editProduct()">
+  <p>Name <input type="text" name="name" [(ngModel)]="product.name"></p>
+  <p>Qty <input type="number" name="quantity" [(ngModel)]="product.quantity"></p>
+  <p>Price <input type="number" name="price" [(ngModel)]="product.price"></p>
+  <button id="update" type="submit">Update</button>
+</form>
+<button id="reset" (click)= "resetData()">Reset</button>

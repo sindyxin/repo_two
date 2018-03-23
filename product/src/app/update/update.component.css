@@ -1,0 +1,12 @@
+button{
+    float: left;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+#reset{
+   background-color: lightgray;
+}
+#update{
+    margin-left: 50px;
+    background-color: lightgreen;
+}

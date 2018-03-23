@@ -1,0 +1,19 @@
+<div id="detail">
+  <h2>Product Detail</h2>
+  <p style="color:red;">{{error}}</p>
+  <table>
+    <tr>
+      <td><b>Name</b></td>
+      <td>{{product.name}}</td>
+    </tr>
+    <tr>
+      <td><b>Qty</b></td>
+      <td>{{product.quantity}}</td>
+    </tr>
+    <tr>
+      <td><b>Price</b></td>
+      <td>{{product.price}}</td>
+    </tr>
+  </table>
+  <button id="back" [routerLink]="['/products']">BACK</button><button id="delete" (click)="onDelete(product._id)">DELETE</button>
+</div>

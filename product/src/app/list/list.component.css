@@ -1,0 +1,26 @@
+#list{
+    margin-left: 20px;
+}
+table,td{
+    padding: 5px;
+}
+button{
+    border-radius: 3px;
+    margin-right: 10px;
+}
+#edit{
+    background-color: pink;
+}
+#detail{
+    background-color: palevioletred;
+}
+h2,#createNew{
+    display: inline-block;
+    vertical-align: center;
+}
+h2{
+    margin-right: 150px;
+}
+#createNew{
+    background-color: lightseagreen;
+}

@@ -1,0 +1,14 @@
+
+<div id="new">
+  <h2>New Product</h2>
+
+  <p style="color:red;" *ngFor="let error of errors">{{error}}</p>
+  <form (submit)="addProduct()">
+    <p>Name <input type="text" name="name" [(ngModel)]="newProduct.name"></p>
+    <p>Qty <input type="number" name="quantity" [(ngModel)]="newProduct.quantity"></p>
+    <p>Price <input type="number" name="price" [(ngModel)]="newProduct.price"></p>
+    <button id="create" type="submit">Create</button>
+  </form>
+  <button id="reset" (click)= "resetData()">Reset</button>
+  <button id="cancel" [routerLink]="['/products']">Cancel</button>
+</div>
